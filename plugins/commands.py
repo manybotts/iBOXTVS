@@ -59,7 +59,7 @@ async def start(client, message):
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],
+            ],[
                 InlineKeyboardButton('Search Movies🔍', switch_inline_query_current_chat=""),
                 InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
